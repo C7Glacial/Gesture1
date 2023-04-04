@@ -139,7 +139,9 @@ class MainActivity : AppCompatActivity(), OnGestureListener, OnTouchListener {
             txv.text = "碰撞"
             img3.visibility = View.VISIBLE
         }
-
+        else {
+            img3.visibility = View.GONE
+        }
         return true
 
     }
